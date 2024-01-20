@@ -1,9 +1,12 @@
 body {
-  background-color: lightgrey;
+  background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .qr-container {
-  margin: 60px auto;
   border-radius: 20px;
   background-color: #fff;
   width: 300px;
@@ -17,6 +20,7 @@ img {
 }
 h1 {
   font-size: 22px;
+  font-weight: 700;
   color: hsl(218, 44%, 22%);
   margin: 15px 10px 16px 20px;
 }
